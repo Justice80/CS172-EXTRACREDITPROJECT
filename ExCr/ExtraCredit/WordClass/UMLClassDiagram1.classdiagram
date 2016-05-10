@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d9f7dfbd-b6dd-44e4-a2a1-6e698899ae20" name="UMLClassDiagram1" linkedPackageId="4cbff2f4-94d7-47c9-9507-0b2a7b30f00a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="df1dc82d-4829-4dbd-8fb2-6484da12e3bb" name="Word" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="86279803-0914-41bc-af80-59de7f0ac8e2" />
+        <ownedAttributesInternal>
+          <property Id="46e47bd6-6bed-49bb-b025-a82047490ebd" name="type" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="624f8353-d514-4778-92d0-bce9e10f6671" />
+          </property>
+          <property Id="cfa84a7d-45e6-4841-acba-fe31c8d50c23" name="frequency" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b9fde3bb-1865-44f9-8987-8f72eb6a9339" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6b669168-ffe7-4f9f-ba52-58732aac1420" name="getType" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5832df35-2d16-4273-b0e1-35ffded73bf6" />
+          </operation>
+          <operation Id="f7f1ef58-5708-4877-8ff2-e5c709b4e3b4" name="getFrequency" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5acc9322-e89d-4d9a-acf7-0ff4ec408b2b" />
+          </operation>
+          <operation Id="d0abb078-c9d3-4088-97be-4cd81ed12a1d" name="setFrequency" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ebe01c60-db95-4396-9e7f-d9a694490012" />
+          </operation>
+          <operation Id="b1276b68-eb91-4995-b9b2-c399a928e961" name="setType" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a41d95f1-854f-4390-b6c2-91070433d7c4" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4cbff2f4-94d7-47c9-9507-0b2a7b30f00a" name="WordClass">
+    <elementDefinition Id="beb2b009-6ba9-48e2-9b26-28b5418391a3" />
+    <profileInstances>
+      <packageHasProfileInstances Id="912e7640-e97a-4ada-ad66-a669e88eb30a">
+        <profileInstance Id="12d37b2c-ea26-4255-aa3a-965532a31b94" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="33b12956-c5b9-4c8c-9ff4-3083fafe302d">
+        <profileInstance Id="5b67e245-ef45-4099-95b3-49ec471e527a" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
